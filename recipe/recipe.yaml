@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.8"
+  version: "0.9"
 
 package:
   name: ccache-storage-http-go
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/ccache/ccache-storage-http-go/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: ca1991ff5f9a6b553b727d7b12e1de04c4b75ef1eeb093ba4359a568abc0fa38
+  sha256: d99b1a778daa698224ce5a55abb9e89f72ceb292ef496aa46cf0f057cbc90dcf
   target_directory: src
 
 build:
